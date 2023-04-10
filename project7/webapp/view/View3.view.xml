@@ -1,0 +1,21 @@
+<mvc:View controllerName="project7.controller.View3"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>page2}"
+        showNavButton="true"
+        navButtonPress="onBack1">
+        <content>
+            <Panel id="panel">
+            <Button id="button" text="Page3" press="onpress" />
+        </Panel>
+        <Text text="You are in Page2" id="t2"> </Text>
+        </content>
+        <footer>
+            <OverflowToolbar id="over">
+                <ToolbarSpacer id="toobar" />
+                <Text text="Yash Technologies" id="text"></Text>
+                <ToolbarSpacer id="toobar1"/>
+            </OverflowToolbar>
+        </footer>
+    </Page>
+</mvc:View>

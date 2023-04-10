@@ -1,0 +1,31 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <!-- <Shell id="shell"> -->
+    <App id="V">
+    <Page id="page"  title="{i18n>title}" class="size1">
+        <content>
+          <VBox class="examples" id="h">
+          <Panel id="p1">
+            <FlexBox height="50px" alignItems="Start" justifyContent="Center"
+        id="flex">
+          <Button id="b1" text="Page1" press="onclick" />
+          <Button id="b2" text="Page2" press="onclick1"/>
+          <Button id="b3" text="Page3" press="onclick2"/>
+          <Button id="button" text="Invoice list" press="onclick3"/>
+          </FlexBox>
+        </Panel>
+      </VBox>
+      <mvc:XMLView id="view" viewName="project1.view.View5"/>
+        </content>
+        <footer>
+          <OverflowToolbar id="over" >
+            <ToolbarSpacer id="toobar"/>
+            <Text text="Yash Technologies" id="text"></Text>
+            <ToolbarSpacer id="toobar1"/>
+          </OverflowToolbar>
+        </footer>
+    </Page>
+</App>
+<!-- </Shell> -->
+</mvc:View>

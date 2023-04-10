@@ -1,0 +1,17 @@
+<mvc:View controllerName="project5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <!-- <Shell id="shell"> -->
+        <App id="app">
+            <Page id="page" title="main page">
+                <List id="list" items="{mainService/Invoices}" >
+                    <items>
+                        <ObjectListItem id="olist"
+                        title="{invoice>Quantity} / {invoice>ProductName}" /> 
+                    </items>
+                </List>
+                <Text id="text" text="page1"></Text>
+            </Page>
+        </App>
+<!-- </Shell> -->
+</mvc:View>

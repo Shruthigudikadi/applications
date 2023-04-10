@@ -1,0 +1,16 @@
+<mvc:View controllerName="project4.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="app">
+        <Page id="page"
+              title="Invoice">
+              <content>
+                <Panel id="panel">
+               
+                    <Text id="text" text="Invoices list" />
+                </Panel>
+                <mvc:XMLView viewName="project4.view.View1" id="view"/>
+        </content>
+        </Page>
+    </App>
+</mvc:View>

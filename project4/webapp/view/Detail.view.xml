@@ -1,0 +1,14 @@
+<mvc:View controllerName="project4.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="App">
+    <Page id="page" title="title"
+           showNavButton="true"
+           navButtonPress="onback">
+        <content>
+            <ObjectHeader id="objheader"
+            intro="Hello {invoice>ProductName}"></ObjectHeader>
+        </content>
+    </Page>
+</App>
+</mvc:View>

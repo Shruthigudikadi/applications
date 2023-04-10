@@ -1,0 +1,13 @@
+<mvc:View controllerName="project1.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="app">
+        <Page title="page" id="p1">
+        <content>
+            <!-- <Button id="b1" text="page1" press="onPress"/>
+            <Text text="Helloworld" id="H1" /> -->
+        </content>
+    </Page>
+    </App>
+</mvc:View>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SAPUI5 Walkthrough</title>
+	<script
+		id="sap-ui-bootstrap"
+		src="https://sdk.openui5.org/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_fiori_3"
+		data-sap-ui-resourceroots='{
+			"project1": "../"
+		}'
+		data-sap-ui-oninit="module:project1/test/initMockServer"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true">
+	</script>
+</head>
+<body class="sapUiBody" id="content">
+	<div data-sap-ui-component data-name="project1" data-id="container" data-settings='{"id" : "project1"}'></div>
+</body>
+</html>

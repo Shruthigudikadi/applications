@@ -1,0 +1,151 @@
+{
+  "_version": "1.49.0",
+  "sap.app": {
+    "id": "project7",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.9.1",
+      "toolsId": "48d13089-e404-49ce-b661-b946d618ecb4"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.112.1",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {},
+        "sap.f": {},
+        "sap.suite.ui.generic.template": {},
+        "sap.ui.comp": {},
+        "sap.ui.generic.app": {},
+        "sap.ui.table": {},
+        "sap.ushell": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "project7.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "async": true,
+        "viewPath": "project7.view",
+        "controlAggregation": "pages",
+        "controlId": "V",
+        "clearControlAggregation": false
+      },
+      "routes": [
+        {
+          "name": "View1",
+          "pattern": "View1",
+          "target": [
+            "TargetView1"
+          ]
+        },
+        {
+          "name": "View2",
+          "pattern": "View2",
+          "target": [
+            "TargetView2"
+          ]
+        },
+        {
+          "name": "View3",
+          "pattern": "View3",
+          "target": [
+            "TargetView3"
+          ]
+        },
+        {
+          "name": "View4",
+          "pattern": "View4",
+          "target": 
+            [ "TargetView4" ]
+          
+        }
+      ],
+      "targets": {
+        "TargetView1": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "View1",
+          "viewName": "View1",
+          "title": "Main Page"
+        },
+        "TargetView2": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "View2",
+          "viewName": "View2",
+          "title": "Page1"
+        },
+        "TargetView3": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "View3",
+          "viewName": "View3",
+          "title": "Page2"
+        },
+        "TargetView4": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "View4",
+          "viewName": "View4",
+          "title": "Page3"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "project7.view.View1",
+      "type": "XML",
+      "async": true,
+      "id": "V"
+    }
+  }
+}

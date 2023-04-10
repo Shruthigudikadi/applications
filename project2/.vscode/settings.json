@@ -1,0 +1,13 @@
+{
+    "mock-server.settings.paths": {
+        "root": "c:\\Users\\gudikadi.shruthi\\OneDrive - Yash Technologies Pvt Ltd\\Desktop\\applications\\project2",
+        "db": "c:/Users/gudikadi.shruthi/OneDrive - Yash Technologies Pvt Ltd/Desktop/applications/project2/db.json",
+        "middlewares": "c:/Users/gudikadi.shruthi/OneDrive - Yash Technologies Pvt Ltd/Desktop/applications/project2/middlewares.js",
+        "injectors": "c:/Users/gudikadi.shruthi/OneDrive - Yash Technologies Pvt Ltd/Desktop/applications/project2/injectors.json",
+        "store": "c:/Users/gudikadi.shruthi/OneDrive - Yash Technologies Pvt Ltd/Desktop/applications/project2/store.json",
+        "rewriters": "c:/Users/gudikadi.shruthi/OneDrive - Yash Technologies Pvt Ltd/Desktop/applications/project2/rewriters.json",
+        "environment": "c:/Users/gudikadi.shruthi/OneDrive - Yash Technologies Pvt Ltd/Desktop/applications/project2/env",
+        "static": "",
+        "snapshots": "c:\\Users\\gudikadi.shruthi\\OneDrive - Yash Technologies Pvt Ltd\\Desktop\\applications\\project2\\snapshots"
+    }
+}

@@ -1,0 +1,25 @@
+<mvc:View controllerName="project7.controller.View2"
+  xmlns:mvc="sap.ui.core.mvc"
+  height="100%" displayBlock="true"
+  xmlns="sap.m">
+  <Page id="page" title="{i18n>page1}"
+    showNavButton="true"
+    navButtonPress="onBack">
+    <content>
+      <Panel id="p1">
+      
+      <Button id="b1" text="Toggle Footer" press="toggleFooter"/>
+      <ToggleButton id="togid" text="Hide Footer" icon="sap-icon://hide" press="togglehide"/>
+      <ToggleButton id="togid1" text="Show Footer" icon="sap-icon://show" press="toggleshow"/>
+    </Panel>
+     <Text text=" You are  in Page1" id="t1"> </Text>
+    </content>
+    <footer>
+      <OverflowToolbar id="over">
+        <ToolbarSpacer id="toolbar" />
+        <Text text="Yash Technologies" id="text"></Text>
+        <ToolbarSpacer id="toolbar1" />
+      </OverflowToolbar>
+    </footer>
+  </Page>
+</mvc:View>

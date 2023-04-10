@@ -1,0 +1,17 @@
+<mvc:View controllerName="project3.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Form">
+                    <Panel id="panel" headerText="Sample form" class="sapUIResponsiveMargin" width="auto">
+                        <Button id="button" text="employee list" press="onclick"/>
+                    </Panel>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

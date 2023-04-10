@@ -1,0 +1,14 @@
+<mvc:View controllerName="project3.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <List  id="list"
+    headerText="Title" 
+    class="sapUiResponsiveMargin"
+    width="auto"
+    items="{Employee>/Employee}">
+        <items>
+             <ObjectListItem id="name"
+             title="{Employee>FirstName} x {invoice>LastName}"/>
+        </items>
+     </List>
+</mvc:View>

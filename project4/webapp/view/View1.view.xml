@@ -1,0 +1,14 @@
+<mvc:View
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <List id="list"
+      headerText="{i18n>invoiceListTitle}"
+      class="sapUiResponsiveMargin"
+      width="auto"
+      items="{invoice>/Invoices}" >
+      <items>
+         <ObjectListItem id="olist"
+            title="{invoice>Quantity} x {invoice>ProductName}"/>
+      </items>
+   </List>
+</mvc:View>
