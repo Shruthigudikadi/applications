@@ -36,6 +36,7 @@ sap.ui.define([
             },
             
             onTitleChange: function(event) {
+                //document.title = event.getParameter("title");
                 document.title = event.getParameter("title");
 
               
